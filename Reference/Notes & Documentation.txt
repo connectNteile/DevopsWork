@@ -1,0 +1,13 @@
+Devops Basic to Advance by imran teli
+
+Section 1: introduction
+
+*** What is devops**
+Devops can help you achieve in minutes what would have taken longer time so the company can focus on other things.
+
+*** Concepts of software development process ***
+1. Requirement gathering (product features, usage, users, user requirements, market stage)
+2. Planning ( what do we want)
+3. Design and Architect
+4. Development (writing the code and software)
+5. software testing & Quality assurance - if software passes the test it will be moved to production

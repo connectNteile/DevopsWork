@@ -1,0 +1,10 @@
+list of vagrant boxes
+Ubuntu
+vagrant init generic/ubuntu1604
+vagrant init ubuntu/trusty64
+vagrant init generic/ubuntu1804
+
+Centos
+vagrant init generic/centos7
+vagrant init generic/centos6
+vagrant init generic/centos8
