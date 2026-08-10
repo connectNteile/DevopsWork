@@ -44,4 +44,20 @@ it is fully automated with jenkins
 *** TOOL ***
 -Eclipse, Visual studio,pycharm or Atom
 -version control Git, SVN, TFS, Perforce
--Build tools: Maven, ANT, GRADLE, MSBUILD, VISUAL BUILD, IBM URBAN CODE
+-Build tools: Maven, ANT, GRADLE, MSBUILD, VISUAL BUILD, IBM URBAN CODE, IBM URBAN CODE, MAKE, GRUNT,
+-Software Repository - SONATYPE NEXUS, JFROG ARTIFACTORY, ARCHIVA, CLOUDSMITH PACKAGE, GRUNT
+-Integration Tool (CI) - Jenkins, Circle CI, TEAM CITY, BAMBOO CI, CRUISE Control
+
+*** Continuous Delivery ***
+It is an automated process of delivering code changes to server efficiently. it is an extension of continuous integration.
+The process
+-sometimes deployment usually fails due to many human interaction. hence the need to automate the process using continuous delivery. Deployment involes server provisioning dependencies, CONF Changes, network, Artifact deployment.
+Tools
+-Ansible, puppet, chef, Terraform, Cformation, Jenkins, OCtopus, deploy, Helm Chart, code deploy.
+-Software testing has to be automated too like functional, load, performance, database, security.
+-So integrate CI + Automate deployment will trigger Automation testing. so continuous delivery process involves automating every step.
+- code -> code build -> code test -> code analysis -> delivery -> DB/Sec -> Software testing -> schedule production deployment.
+
+-Continuous Integration is a devops software development practise where developers regularly merge their code changes into a central repository, after which automated builds and test are run.
+-Continuous Delivery is a software development practise where code changes are automatically prepared for a release to production.
+
