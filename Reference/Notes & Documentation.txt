@@ -11,3 +11,10 @@ Devops can help you achieve in minutes what would have taken longer time so the 
 3. Design and Architect
 4. Development (writing the code and software)
 5. software testing & Quality assurance - if software passes the test it will be moved to production
+6. Deployment - They can start using the product.
+7. Maintenance
+
+*** Model of SDLC ***
+We have Waterfall, Agile, Spiral and Big Bang etc.
+-Waterfall: Each phase must be completed before proceeding to the next phase. It can take weeks to months.
+-Agile: have several iteration of process, feedback are gotten and injected into the next iteration.
