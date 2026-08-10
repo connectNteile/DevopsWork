@@ -61,3 +61,44 @@ Tools
 -Continuous Integration is a devops software development practise where developers regularly merge their code changes into a central repository, after which automated builds and test are run.
 -Continuous Delivery is a software development practise where code changes are automatically prepared for a release to production.
 
+
+Section 2
+*** Tools prerequites information
+github repository for items needed: https://github.com/hkhcoder/vprofile-project
+
+Tools -They will be installed in command line using package manager
+- for windows we install chocolatey as package manager on command line.
+- for MacOS, we install Brew
+Tools
+- Oracle VM Virtual Box as Windows or Macbook hypervisor
+-VMware Fushion - MAcbook ARM
+- Gitbash (Windows , it is terminal for running command)
+- Vagrant (All OS), it is VM automated tool
+
+Additional Tools
+JDK 17/21, maven 3.9, vs code, sublime text, text editor account to setup.
+
+Account to signup
+-Github, gomain purchase (godaddy or any), dockerhub(for storing docker images, sonar cloud.
+
+AWS Prerequites
+-Create AWS Free tier Account
+-Setup IAM user with MFA
+-Configure billing Alarm
+Request SSL certficat for https
+
+*** Chocolatey ***
+it is used for installing programs through the command line
+but you can use sublime text, powershell or command line prompt too.
+
+Installing Chocolatey
+-Search on google for Chocolatey (https://chocolatey.org/install
+Follow the commands on the site to install it. Take note of the instrution before installing incase it is not installing
+
+-After installing chocolatey, go the the chocolatey website and search for any software you want and copy the installation command or prompt and run it.
+
+*** HOMEBREW for MACOS ***
+Homebrew is used for installing softwares on the MAcOS
+open google -> search for Homebrew and open the first link ->copy the link and open terminal and paste it there -> click enter -> enter system password to permit installation -> Next copy and paste the .zprofile command and the shell env commmand . then type brrew after installation to see if its installed.
+
+*** Installing Software ***
