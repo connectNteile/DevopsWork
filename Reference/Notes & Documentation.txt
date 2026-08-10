@@ -18,3 +18,30 @@ Devops can help you achieve in minutes what would have taken longer time so the 
 We have Waterfall, Agile, Spiral and Big Bang etc.
 -Waterfall: Each phase must be completed before proceeding to the next phase. It can take weeks to months.
 -Agile: have several iteration of process, feedback are gotten and injected into the next iteration.
+
+Why Devops
+- Developers complain of delay in deployment from operation. Operations also complain of unclear instruction from development team. Dev- is agile, ops- is waterfall. so we need devops to solve this issue. So understanding Devops helps automate the process.
+*** Devops Lifecyle ***
+Code (developers) -> Code build -> code test -> code analysis -> delivery -> DB/Security/OS change -> software testing -> deploy to production -> Go live -> user approval
+Devops life cycle has no human interaction so no error, complete repetitive and automated life cycle.
+
+*** What is continous Integrations ***
+is an automated process in devops which generates software and its features effectively and quickly. 
+-Version contrl system are centralized places where code are pushed to by developers e.g. Github so code changes or commite happens several times in a day.
+Then the code is moved to a build server where it wlll be Build, tested, and evaluated so as to generate the software called artifact at this stage.
+-Artifacts are packages in several format like War/jar, DLL/EXE/MSI, ZIP/TAR etc.
+From there it will be shifted to server for testing. from successful testing, software is moved to production server. 
+-Commit: it helps to update changes in the software.
+
+- So the process of continous integration (CI) involves;
+code -> fetch -> build -> test -> notify -> feedback
+The goal of CI is to detect any defect at any stage.
+
+CI Process
+identify -> Bug -> issues
+it is fully automated with jenkins
+
+*** TOOL ***
+-Eclipse, Visual studio,pycharm or Atom
+-version control Git, SVN, TFS, Perforce
+-Build tools: Maven, ANT, GRADLE, MSBUILD, VISUAL BUILD, IBM URBAN CODE
