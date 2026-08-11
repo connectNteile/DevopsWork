@@ -110,3 +110,23 @@ open google -> search for Homebrew and open the first link ->copy the link and o
 -to check a particular type or software use, java -version, mvn -version etc.
 -To uninstall, choco uninstall vscode
 -To install, choco install vscode -y
+-After installation, we should have vm virtual box, git bash, vagrant, chocolatey/brew, jdk8, maven, intellij, sublime text editor
+
+-Next signup on github, domain purchase(godaddy), dockerhub, sonarcloud.
+
+-Tool prerequities for centos (article downloaded) - install virtualbox, sudo yum update, sudo yum install patch gcc
+-Tool prerequities for Ubuntu 24, sudo apt update
+
+-Signups
+*Open github ->username & password ->signup and follow the step to complete, activate your personal email and you are done.
+*Open https://godaddy.com -> signup or create account -> for puchase of domain so you can have real time experience.
+-Then sign in -> search for domain available by typing in the one you want e.g. hkhinfo.xyz -> select from the option and click make it yours -> it wll show the cart info -> select 1 year to reduce price. -> click continue to cart -> click on free privacy protection -> if you dont website (click the start your website for free) -> click on continue to cart -> click on i'm ready to pay and fill the details to pay.
+
+*Create an Account on Dockerhub (for docker image)
+open hub.docker.com -> sign up -> Enter username , email, password & sign up -> choose free plan -> verify your email and you are done.
+
+*Sonar cloud
+sonarcloud.io -> sign up -> select github -> Authorize sonar cloud & its done.
+
+*AWS SETUP (AWS Account Setup, login, security, Biling Alarm)
+Aws.amazon.com/console -> create account -> choose free tire /paid plan -> complete signup -> Then click on sign in to login -> click on location , select north virginia
