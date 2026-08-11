@@ -130,3 +130,14 @@ sonarcloud.io -> sign up -> select github -> Authorize sonar cloud & its done.
 
 *AWS SETUP (AWS Account Setup, login, security, Biling Alarm)
 Aws.amazon.com/console -> create account -> choose free tire /paid plan -> complete signup -> Then click on sign in to login -> click on location , select north virginia
+-Click on dashboard to see what you have change the url of the account -> search for IAM  -> click on account Alias ->click on create -> type in a name you want -> click on create alias.
+
+securing login(by adding multiple factor authentication so as to set security code for login)
+Click on dashboard -> IAM Dashboard -> under security recommendation, click on Add MFA -> confirm the device -> click on Authentication app (Google Authenticator) option under MFA Devices -> click on next -> clikc on show QR code -> Then on your phone click on + to add the code in Google authenticator -> enter the first and second code shown in the google Authenticator on your phone in your IAM Dashboard
+
+Creating IAM USEr(Not Root User), we create IAM user to use the AWS resources instaed of root user. -> under the dashboard, clikc on users -> click on create user -> type a name for the user e.g. itadmin -> select auto generate password, check user create a new password at next sign-in recommended -> under permission options, click on attach policy directly -> slelct administrative access -> click next -> click on create
+* it will show you the login url, userame and console password. Anytime, you can delete user, edit details of the user too
+-click on the user(itadmin), under policies permission, you can click on click box to remov policies or click on add permission to add more permission poicy
+- under security credential tab of the user -> set MFA for the user too if you want.
+
+Setting Alarm / Monitoring system for Billing
