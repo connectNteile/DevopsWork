@@ -141,3 +141,22 @@ Creating IAM USEr(Not Root User), we create IAM user to use the AWS resources in
 - under security credential tab of the user -> set MFA for the user too if you want.
 
 Setting Alarm / Monitoring system for Billing
+
+-Click and search for cloud watch (it is a monitoring servie for monitoring all services you are using on AWS. so it monitors all the resources you're using in AWS Account , it also monitor your bill and you can set alarm and send you email notifications.
+-Click Account name at the top right corner & select Bill and cost managements -> click on Bills to see the Bills -> click down or scroll down and click on billing preferences, under the alert preference for the AWS free tier alert, enter email and update.
+-in the invoice delivery preference, click on edit & slect pdf invoice delivery by email -> click update.
+->click on all alarm under Alarm in the cloud watch services -> click on create alarm - > click on select metric -> click on billing -> click on total estimated charge -> checkbox usd to select usd ->click on select metric -> under condition, specify amount e.g. 5usd -> click on next
+-> under notification, select alarm -> then click on create new topic ->`Add the email address to get the message -> click on create topic -> click next -> under add alarm details, type a name -> click on next -> click on create alarm
+
+To check the setting
+Go to your email, click on confirm subscription -> click on biling alarm -> under action tab, you will see action enable & the action type and description.
+-if you see pending in the action tab, click on your email and confirm subscription & then refresh your window or site.
+
+Creating a public certificate for your purchased domain
+-The certificate is for proof of ownership  as the rightful owner of the domain.
+- to check if a domain has public cerfificate, click on the cursor icon before the url address, it will open a menu showing connection is secur, if you click on connection is secure, you will see certificate is valid, if you open that, you will see detailas about the certificate.
+-To create certificate ty[e ad open certificate manager on AWS search -> click on certificate manage -> request a certificate -> click on request public certificate botton & click on next -> type in the domain name in this format *.hkpinform.xyz -> click on dns validation and click on request.
+-Next Go to your goddaddy portal -> click on domain -> click on dns -> under Add a new recod, click on add new record -> under type, select CNAMe (remove your domain name and full stop at the end), copy the value , & remove the fullstop at the end), -> click save -> wait for some time  (maybe some days) & refresh AWS page
+
+Login in as AWS IAM USer
+-Get the url -> enter username and password
